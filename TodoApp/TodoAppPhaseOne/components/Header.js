@@ -4,7 +4,7 @@ function Header(){
     return(
         <header>
         
-            <h1>This is the leader</h1>
+            <h1>ToDo List</h1>
         
         </header>
     )
