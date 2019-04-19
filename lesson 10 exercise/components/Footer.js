@@ -4,7 +4,7 @@ import React from 'react'
 function Footer(){
     return(
         <div>
-            <h3>Footer baby</h3>
+            <footer>Footer baby</footer>
         </div>
     )
 }
