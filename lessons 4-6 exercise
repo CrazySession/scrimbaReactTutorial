@@ -1,0 +1,17 @@
+import React from 'react';
+import ReactDom from 'react-dom';
+
+function MyApp(){
+  return(
+          <ul>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+          </ul>
+  )
+}
+
+ReactDom.render(
+                <MyApp />
+                ,document.getElementById('root')
+)
