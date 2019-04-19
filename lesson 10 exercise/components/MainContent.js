@@ -3,7 +3,7 @@ import React from 'react'
 
 function MainContent(){
     return(
-        <div>
+        <main>
             <ul>
                 <li>This</li>
                 <li>is</li>
@@ -11,7 +11,7 @@ function MainContent(){
                 <li>Main</li>
                 <li>Content</li>
             </ul>
-        </div>
+        </main>
     )
 }
 
