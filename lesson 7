@@ -1,0 +1,22 @@
+import React from 'react';
+import ReactDom from 'react-dom';
+
+function MyInfo(){
+  return(
+    <div>
+      <h1>Andreas Kochmann</h1>
+      <p>Be on fire for coding!!!</p>
+      <ul>
+        <li><h3>vacation spots i like to visit</h3></li>
+        <li>Ravenna (Italy)</li>
+        <li>California (USA></li>
+        <li>Rotterdam (Netherlands)</li>
+      </ul>
+    </div>
+  )
+}
+
+ReactDom.render(
+                <MyInfo />
+                ,document.getElementById('root')
+)
