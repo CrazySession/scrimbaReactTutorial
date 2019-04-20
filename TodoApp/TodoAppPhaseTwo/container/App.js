@@ -14,6 +14,9 @@ function App() {
     return (
         <div>
             <TodoItem   />
+            <TodoItem   />
+            <TodoItem   />
+            <TodoItem   />
         </div>
     )
 }
